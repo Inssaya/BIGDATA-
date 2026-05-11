@@ -6,7 +6,7 @@ Important: adapt paths if your repository is not located at `C:\Users\yassi\BIG-
 
 Prerequisites
 - Docker Desktop installed and running
-- XAMPP installed (MySQL available)
+- XAMPP installed (MySQL available)(bdal lport flcode)
 - Python 3.10+ installed
 - Git (to clone the repository)
 
