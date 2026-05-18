@@ -1,0 +1,26 @@
+[
+    {
+        "total_articles":27,
+        "unique_tickers":5,
+        "news_by_ticker":{
+            "DIA":17,
+            "SPY":5,
+            "XLK":3,
+            "SHOP":1,
+            "META":1
+        },
+        "sentiment_distribution":{
+            "neutral":21,
+            "positive":4,
+            "negative":2
+        },
+        "top_sources":{
+            "Business | The Guardian":14,
+            "Bloomberg Markets":9,
+            "All Articles on Seeking Alpha":2,
+            "International homepage":2
+        },
+        "latest_news_date":"2026-05-13T13:14:01.000",
+        "generated_at":"2026-05-13T14:29:58.286363"
+    }
+]

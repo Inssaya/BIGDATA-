@@ -1,0 +1,9 @@
+apache-airflow-providers-postgres
+pandas
+numpy
+sqlalchemy
+pymysql
+yfinance
+requests
+feedparser
+beautifulsoup4

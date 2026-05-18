@@ -3,8 +3,6 @@ import json
 import time
 
 import yfinance as yf
-from kafka import KafkaProducer
-from kafka.errors import KafkaError, NoBrokersAvailable
 
 BOOTSTRAP_SERVERS = "localhost:9092"
 TOPIC_NAME = "stock_topic"
@@ -13,6 +11,8 @@ POLL_INTERVAL_SECONDS = 5
 
 
 def create_producer():
+    from kafka import KafkaProducer
+
     return KafkaProducer(
         bootstrap_servers=BOOTSTRAP_SERVERS,
         value_serializer=lambda value: json.dumps(value).encode("utf-8"),
@@ -36,6 +36,8 @@ def fetch_stock_record(ticker):
 
 
 def main():
+    from kafka.errors import KafkaError, NoBrokersAvailable
+
     producer = None
 
     while True:
